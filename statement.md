@@ -1,6 +1,6 @@
 # Welcome!
 
-This C# template lets you get started quickly with a simple one-page playground.
+Peglo
 
 ```C# runnable
 // { autofold
@@ -11,15 +11,15 @@ class Hello
     static void Main() 
     {
 // }
-
-Console.WriteLine("Hello World!");
-
+int? a = null;
+Console.WriteLine(a ?? 5);
+// Equivalent ternary : a != null ? a : 5
 // { autofold
     }
 }
 // }
 ```
 
-# Advanced usage
+# Description
 
-If you want a more complex example (external libraries, viewers...), use the [Advanced C# template](https://tech.io/select-repo/386)
+The ?? operator allows you to assign the variable if it is not null otherwise it assigns the right value.
